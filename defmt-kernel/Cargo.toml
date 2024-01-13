@@ -1,0 +1,14 @@
+[package]
+name = "defmt-kernel"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["interrupts"]
+interrupts = [] # Doesn't turn off interrupts. Only used for testing in usermode.
+
+[dependencies]
+defmt = "0.3.5"
+x86_64 = "0.14.11"

@@ -1,0 +1,18 @@
+[package]
+name = "pe2table"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+defmt-decoder = "0.3.9"
+object = "0.32.2"
+gimli = "0.28.1"
+serde_json = "1.0.111"
+serde = { version = "1.0.195", features = ["derive"] }
+log = "0.4.20"
+defmt-parser = "0.3.3"
+env_logger = "0.10.1"
+pdb = "0.8.0"

@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "defmt-kernel",
+    "defmt-print",
+    "pe2table",
+    "example"
+]
+resolver = "2"
+
+[profile.release]
+#lto = "fat"
